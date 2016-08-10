@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+xmlns:a="http://rs.tdwg.org/ontology/voc/TaxonName#"
+xmlns:d="http://rs.tdwg.org/ontology/voc/Common#"
+xmlns:c="http://purl.org/dc/elements/1.1/"
+xmlns:b="http://rs.tdwg.org/ontology/voc/TaxonConcept#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+<rdf:Description rdf:about="http://bioguid.osu.edu/xbiod_concepts/249011#xbiodTaxonName">
+<a:nameComplete>Trichoteleia carinata</a:nameComplete>
+<a:authorship>Talamas &amp; Johnson</a:authorship>
+<a:rankString>Species</a:rankString>
+<a:nomenclaturalCode rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonName#ICZN"/>
+<a:rank rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonRank#Species"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://bioguid.osu.edu/xbiod_concepts/249011">
+<c:identifier rdf:resource="http://bioguid.osu.edu/xbiod_concepts/249011"/>
+<c:creator rdf:resource="http://xbiod.osu.edu"/>
+<c:title>Trichoteleia carinata Talamas &amp; Johnson</c:title>
+<c:type>Taxon Concept</c:type>
+<b:hasName rdf:resource="http://bioguid.osu.edu/xbiod_concepts/249011#xbiodTaxonName"/>
+<b:nameString>Trichoteleia carinata</b:nameString>
+<b:primary>true</b:primary>
+<d:publishedInCitation rdf:resource="http://bioguid.osu.edu/xbiod_pubs/23390"/>
+<b:hasRelationship>
+<rdf:Description rdf:about="http://bioguid.osu.edu/xbiod_concepts/249011#xbiodRelationship573">
+<b:toTaxon rdf:resource="http://bioguid.osu.edu/xbiod_concepts/573"/>
+<b:relationshipCategory rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonConcept#IsChildTaxonOf"/>
+</rdf:Description>
+</b:hasRelationship>
+</rdf:Description>
+</rdf:RDF>

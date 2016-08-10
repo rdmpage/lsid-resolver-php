@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:tn="http://rs.tdwg.org/ontology/voc/TaxonName#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:tpub="http://rs.tdwg.org/ontology/voc/PublicationCitation#" xmlns:trank="http://rs.tdwg.org/ontology/voc/TaxonRank#" xmlns:tcom="http://rs.tdwg.org/ontology/voc/Common#">
+  <tn:TaxonName rdf:about="urn:lsid:Orthoptera.speciesfile.org:TaxonName:61777">
+    <dc:title>Euchorthippus declivus (Brisout de Barneville, 1848)</dc:title>
+    <tn:nameComplete>Euchorthippus declivus</tn:nameComplete>
+    <tn:authorship>(Brisout de Barneville, 1848)</tn:authorship>
+    <tn:rankString>species</tn:rankString>
+    <tn:nomenclaturalCode rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonName#ICZN" />
+  </tn:TaxonName>
+</rdf:RDF>

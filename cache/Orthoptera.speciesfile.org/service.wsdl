@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://www.example.org/SampleDataServices" targetNamespace="http://www.example.org/SampleDataServices" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:httpsns="http://www.omg.org/LSID/2003/DataServiceHTTPBindings">
+  <import namespace="http://www.omg.org/LSID/2003/DataServiceHTTPBindings" location="LSIDDataServiceHTTPBindings.wsdl" />
+  <service name="MyMetadataHTTPService">
+    <port name="MyMetadataServiceHTTPPort" binding="httpsns:LSIDMetadataHTTPBinding">
+      <http:address location="http://orthoptera.speciesfile.org/authority/metadata" />
+    </port>
+  </service>
+</definitions>

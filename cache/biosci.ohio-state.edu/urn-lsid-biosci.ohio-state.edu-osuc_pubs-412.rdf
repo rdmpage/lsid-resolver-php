@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+xmlns:a="http://rs.tdwg.org/ontology/voc/PublicationCitation#"
+xmlns:b="http://purl.org/dc/elements/1.1/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+<rdf:Description rdf:about="http://bioguid.osu.edu/xbiod_pubs/412">
+<b:identifier rdf:resource="http://bioguid.osu.edu/xbiod_pubs/412"/>
+<b:creator rdf:resource="http://xbiod.osu.edu"/>
+<b:title>CHAPTER</b:title>
+<b:type>Publication</b:type>
+<a:authorship>Risbec, J. (Jean)</a:authorship>
+<a:title>Contribution a l'étude des Proctotrupidae (Serphiidae).</a:title>
+<a:url rdf:resource="http://128.146.250.117/pdfs-osuc/412/412.pdf"/>
+<a:year>1950</a:year>
+<a:publicationType rdf:resource="http://rs.tdwg.org/ontology/voc/PublicationCitation#BookSection"/>
+<a:pages>511-639</a:pages>
+<a:number>II</a:number>
+<a:parentPublication rdf:resource="http://bioguid.osu.edu/xbiod_pubs/21214"/>
+</rdf:Description>
+</rdf:RDF>

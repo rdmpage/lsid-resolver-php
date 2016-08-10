@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<wsdl:definitions targetNamespace="http://www.omg.org/LSID/2003/Standard/WSDL" xmlns:tns="http://www.omg.org/LSID/2003/Standard/WSDL"
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+ xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+ xmlns:asb="http://www.omg.org/LSID/2003/AuthorityServiceSOAPBindings"
+ xmlns:ahb="http://www.omg.org/LSID/2003/AuthorityServiceHTTPBindings"
+>
+<wsdl:import namespace="http://www.omg.org/LSID/2003/AuthorityServiceHTTPBindings" location="LSIDAuthorityServiceHTTPBindings.wsdl"/>
+<wsdl:import namespace="http://www.omg.org/LSID/2003/AuthorityServiceSOAPBindings" location="LSIDAuthorityServiceSOAPBindings.wsdl"/>
+<wsdl:service name="AuthorityService">
+<wsdl:port name="soapPort" binding="asb:LSIDAuthoritySOAPBinding">
+<soap:address location="http://osuc.biosci.ohio-state.edu/authority/"/>
+</wsdl:port>
+<wsdl:port name="httpPort" binding="ahb:LSIDAuthorityHTTPBinding">
+<http:address location="http://osuc.biosci.ohio-state.edu"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

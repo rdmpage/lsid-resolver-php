@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<wsdl:definitions targetNamespace="http://osuc.biosci.ohio-state.edu/availableServices?urn:lsid:biosci.ohio-state.edu:osuc_concepts:249011" xmlns:tns="http://osuc.biosci.ohio-state.edu/availableServices?urn:lsid:biosci.ohio-state.edu:osuc_concepts:249011"
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+ xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+ xmlns:dsb="http://www.omg.org/LSID/2003/DataServiceSOAPBindings"
+ xmlns:dhb="http://www.omg.org/LSID/2003/DataServiceHTTPBindings"
+>
+<wsdl:import namespace="http://www.omg.org/LSID/2003/DataServiceHTTPBindings" location="LSIDDataServiceHTTPBindings.wsdl"/>
+<wsdl:import namespace="http://www.omg.org/LSID/2003/DataServiceSOAPBindings" location="LSIDDataServiceSOAPBindings.wsdl"/>
+<wsdl:service name="osucSOAP">
+<wsdl:port name="soapMetadata2" binding="dsb:LSIDMetadataSOAPBinding">
+<soap:address location="http://osuc.biosci.ohio-state.edu/authority/metadata"/>
+</wsdl:port>
+</wsdl:service>
+<wsdl:service name="osucHTTP">
+<wsdl:port name="httpMetadata1" binding="dhb:LSIDMetadataHTTPBinding">
+<http:address location="http://osuc.biosci.ohio-state.edu/authority/metadata"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

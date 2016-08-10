@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="http://www.hyam.net/lsid/Authority" targetNamespace="http://www.hyam.net/lsid/Authority" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:httpsns="http://www.omg.org/LSID/2003/AuthorityServiceHTTPBindings">
+  <import namespace="http://www.omg.org/LSID/2003/AuthorityServiceHTTPBindings" location="LSIDAuthorityServiceHTTPBindings.wsdl" />
+  <wsdl:service name="MyAuthorityHTTPService">
+    <wsdl:port name="MyAuthorityHTTPPort" binding="httpsns:LSIDAuthorityHTTPBinding">
+      <httpsns:address location="http://orthoptera.speciesfile.org" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

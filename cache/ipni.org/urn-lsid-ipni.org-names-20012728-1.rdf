@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lsid.rdf.xsl"?>
+<rdf:RDF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:tn="http://rs.tdwg.org/ontology/voc/TaxonName#"
+xmlns:tm="http://rs.tdwg.org/ontology/voc/Team#"    
+xmlns:tcom="http://rs.tdwg.org/ontology/voc/Common#"    
+xmlns:p="http://rs.tdwg.org/ontology/voc/Person#"    
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:owl="http://www.w3.org/2002/07/owl#">
+<tn:TaxonName rdf:about="urn:lsid:ipni.org:names:20012728-1">	
+<tcom:versionedAs rdf:resource="urn:lsid:ipni.org:names:20012728-1:1.1"/>
+<tn:nomenclaturalCode rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonName#botanical"/>
+<owl:versionInfo>1.1</owl:versionInfo>
+<dc:title>Poissonia heterantha (Griseb.) Lavin</dc:title>                        
+<dcterms:created>2003-07-02 00:00:00.0</dcterms:created>
+<dcterms:modified>2003-07-02 00:00:00.0</dcterms:modified>
+<tn:rankString>spec.</tn:rankString>
+<tn:nameComplete>Poissonia heterantha</tn:nameComplete>
+<tn:genusPart>Poissonia</tn:genusPart>        
+<tn:specificEpithet>heterantha</tn:specificEpithet>                
+<tn:authorship>(Griseb.) Lavin</tn:authorship>
+<tn:basionymAuthorship>Griseb.</tn:basionymAuthorship>
+<tn:combinationAuthorship>Lavin</tn:combinationAuthorship>
+<tn:authorteam>
+<tm:Team>
+<tm:name>(Griseb.) Lavin</tm:name>
+<tm:hasMember rdf:resource="urn:lsid:ipni.org:authors:22110-1"
+tm:index="1"
+tm:role="Combination Author"/>
+<tm:hasMember rdf:resource="urn:lsid:ipni.org:authors:3397-1" 
+tm:index="1"
+tm:role="Basionym Author"/>
+</tm:Team>
+</tn:authorteam>
+<tcom:publishedIn>Syst. Bot. 28(2): 401 (2003). </tcom:publishedIn>    
+<tn:year>2003</tn:year>        
+<tn:hasBasionym rdf:resource="urn:lsid:ipni.org:names:520610-1"/>
+</tn:TaxonName>  
+</rdf:RDF>
