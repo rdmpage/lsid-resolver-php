@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<wsdl:definitions xmlns:httpsns="http://www.omg.org/LSID/2003/AuthorityServiceHTTPBindings" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://rs.tdwg.org/tapir/lsid/Authority">
+  <wsdl:import namespace="http://www.omg.org/LSID/2003/AuthorityServiceHTTPBindings" location="LSIDAuthorityServiceHTTPBindings.wsdl" />
+  <wsdl:service name="AuthorityHTTPService">
+    <wsdl:port name="HTTPPort" binding="httpsns:LSIDAuthorityHTTPBinding">
+      <httpsns:address location="http://lsid.nmbe.ch:80" />
+    </wsdl:port>
+  </wsdl:service>
+
+</wsdl:definitions>

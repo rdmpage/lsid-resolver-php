@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:tn="http://rs.tdwg.org/ontology/voc/TaxonName#" xmlns:nmbe="urn:lsid:nmbe.ch:predicates:" xmlns:tc="http://rs.tdwg.org/ontology/voc/TaxonConcept#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="urn:lsid:nmbe.ch:spidersp:021946">
+    <dc:date>2016-08-10</dc:date>
+    <dc:type>Scientific Name</dc:type>
+    <dc:creator rdf:resource="http://www.wsc.nmbe.ch"/>
+    <dc:identifier>urn:lsid:nmbe.ch:spidersp:021946</dc:identifier>
+    <dc:title>Hahnia nava</dc:title>
+    <dc:subject>Hahnia nava (Blackwall, 1841)</dc:subject>
+    <tn:nameComplete>Hahnia nava</tn:nameComplete>
+    <tn:genusPart>Hahnia</tn:genusPart>
+    <tn:specificEpithet>nava</tn:specificEpithet>
+    <tn:infraspecificEpithet></tn:infraspecificEpithet>
+    <tn:authorship>Blackwall</tn:authorship>
+    <tn:year>1841</tn:year>
+    <dwc:nomenclaturalCode>ICZN</dwc:nomenclaturalCode>
+    <nmbe:statusString>VALID</nmbe:statusString>
+    <dwc:taxonRank>species</dwc:taxonRank>
+    <tc:hasInformation rdf:resource="http://wsc.nmbe.ch/species/12846"/>
+    <dwc:namePublishedIn>Blackwall, J. (1841). The difference in the number of eyes with which spiders are provided proposed as the basis of their distribution into tribes; with descriptions of newly discovered species and the characters of a new family and three new genera of spiders. Transactions of the Linnean Society of London 18: 601-670.</dwc:namePublishedIn>
+    <nmbe:publishedOnPage>622</nmbe:publishedOnPage>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:tn="http://rs.tdwg.org/ontology/voc/TaxonName#" xmlns:nmbe="urn:lsid:nmbe.ch:predicates:" xmlns:tc="http://rs.tdwg.org/ontology/voc/TaxonConcept#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="urn:lsid:nmbe.ch:spidersp:021947">
+    <dc:date>2016-08-10</dc:date>
+    <dc:type>Scientific Name</dc:type>
+    <dc:creator rdf:resource="http://www.wsc.nmbe.ch"/>
+    <dc:identifier>urn:lsid:nmbe.ch:spidersp:021947</dc:identifier>
+    <dc:title>Hahnia nigricans</dc:title>
+    <dc:subject>Hahnia nigricans Benoit, 1978</dc:subject>
+    <tn:nameComplete>Hahnia nigricans</tn:nameComplete>
+    <tn:genusPart>Hahnia</tn:genusPart>
+    <tn:specificEpithet>nigricans</tn:specificEpithet>
+    <tn:infraspecificEpithet></tn:infraspecificEpithet>
+    <tn:authorship>Benoit</tn:authorship>
+    <tn:year>1978</tn:year>
+    <dwc:nomenclaturalCode>ICZN</dwc:nomenclaturalCode>
+    <nmbe:statusString>VALID</nmbe:statusString>
+    <dwc:taxonRank>species</dwc:taxonRank>
+    <tc:hasInformation rdf:resource="http://wsc.nmbe.ch/species/12847"/>
+    <dwc:namePublishedIn>Benoit, P. L. G. (1978e). Hahniidae du Mont Kenya (Araneae). Scientific report of the Belgian Mt. Kenya Bio-Expedition, 1975, n° 16. Revue Zoologique Africaine 92: 609-621.</dwc:namePublishedIn>
+    <nmbe:publishedOnPage>615</nmbe:publishedOnPage>
+  </rdf:Description>
+</rdf:RDF>
