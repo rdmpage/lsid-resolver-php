@@ -142,9 +142,10 @@ else
 		function resolve(lsid) {
 			var lsid = $('#lsid').val();
 			
-			
-			
 			$('#results').html('');
+			$('#tabs-1').html('');
+			$('#tabs-2').text('');
+			$('#tabs-3').text('');
 			
 			$('#results').html('Resolving...');
 			

@@ -1,0 +1,44 @@
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+>
+    <rdf:Description rdf:about="urn:lsid:algaebase.org:taxname:101541">
+        <dc:type>ScientificName</dc:type>
+        <dc:date>2016-08-10</dc:date>
+        <dc:subject>Bangia atropurpurea (Mertens ex Roth) C.Agardh</dc:subject>
+        <dc:title>Bangia atropurpurea</dc:title>
+        <dc:relation>http://www.algaebase.org/search/species/detail/?species_id=bc62e1ca7fc7a5c58</dc:relation>
+        <dc:creator>M.D. Guiry</dc:creator>
+        <dc:identifier>urn:lsid:algaebase.org:taxname:101541</dc:identifier>
+        <dc:publisher>AlgaeBase</dc:publisher>
+        <dc:license>http://creativecommons.org/licenses/by-nc-sa/3.0</dc:license>
+        <dc:language>Latin</dc:language>
+        <dcterms:bibliographicCitation>Agardh, C.A. (1824). Systema Algarum.  pp. [i]-xxxvii, [1]-312. Lundae [Lund]: Literis Berlingianis [Berling].</dcterms:bibliographicCitation>
+        <dcterms:created>1997-12-15</dcterms:created>
+        <dcterms:modified>2015-02-14</dcterms:modified>
+
+        <dcterms:rightsHolder>AlgaeBase</dcterms:rightsHolder>
+        <dwc:empire>Eukaryota</dwc:empire>
+        <dwc:kingdom>Plantae</dwc:kingdom>
+        <dwc:phylum>Rhodophyta</dwc:phylum>
+        <dwc:subphylum>Eurhodophytina</dwc:subphylum>
+        <dwc:class>Bangiophyceae</dwc:class>
+        <dwc:subclass>Bangiophycidae</dwc:subclass>
+        <dwc:order>Bangiales</dwc:order>
+        <dwc:family>Bangiaceae</dwc:family>
+        <dwc:genus>Bangia</dwc:genus>
+        <dwc:subgenus></dwc:subgenus>
+
+        <dwc:taxonRank>Species</dwc:taxonRank>
+        <dwc:ScientificName>Bangia atropurpurea (Mertens ex Roth) C.Agardh</dwc:ScientificName>
+        <dwc:scientificNameAuthorship>(Mertens ex Roth) C.Agardh</dwc:scientificNameAuthorship>
+        <dwc:taxonomicStatus>Current name</dwc:taxonomicStatus>
+        <dwc:scientificNameID rdf:resource="urn:lsid:algaebase.org:taxname:101541"></dwc:scientificNameID>
+
+    </rdf:Description>
+</rdf:RDF>
+
