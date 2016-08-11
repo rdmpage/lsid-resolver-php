@@ -68,6 +68,7 @@ else
 <html>
   <head>
   	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<title>LSID Resolver</title>
   	
     <style type="text/css">
@@ -272,13 +273,13 @@ else
 			<li><a href="#tabs-2">N-Triples</a></li>
 			<li><a href="#tabs-3">XML</a></li>
 		  </ul>
-		  <div id="tabs-1" style="white-space: pre;">
+		  <div id="tabs-1" style="white-space: pre;overflow-x:auto;">
 		  
 		  </div>
-		  <div id="tabs-2" style="white-space: pre;">
+		  <div id="tabs-2" style="white-space: pre;;overflow-x:auto;">
 		  
 		  </div>
-		  <div id="tabs-3" style="white-space: pre;">
+		  <div id="tabs-3" style="white-space: pre;;overflow-x:auto;">
 		  
 		  </div>
 		</div>
