@@ -86,6 +86,13 @@ else
 		padding:10px;
        }
        
+	  .progress { 
+	   font-family: Arial;
+	   color: rgb(255,255,255);
+       background-color:orange;
+		padding:10px;
+       }       
+       
 	}
     </style>
     
@@ -142,12 +149,16 @@ else
 		function resolve(lsid) {
 			var lsid = $('#lsid').val();
 			
-			$('#results').html('');
 			$('#tabs-1').html('');
 			$('#tabs-2').text('');
 			$('#tabs-3').text('');
 			
-			$('#results').html('Resolving...');
+			var html = '';
+			html += '<div class="progress">';
+			html += '<p>Resolving ' + lsid + '</p>';
+			html += '</div>';
+			$('#results').html(html);
+			
 			
 			$.getJSON('api.php?lsid=' + lsid + "&callback=?",
 				function(data){
@@ -188,11 +199,15 @@ else
 
   </head>
   <body>
-    <h1>Life Sciences Identifier (LSID) Resolver</h1>    	
+    <h1><?php if ($lsid != '') { echo '<a href=".">Home</a>'; } ?> Life Sciences Identifier (LSID) Resolver</h1>    	
 		<div style="width:100%;padding-bottom:20px;">
 			<input type="text" id="lsid" value="" placeholder="" >
 			<button id="go" onclick="resolve();">Go</button>
 		</div>
+		
+		<?php if ($lsid == '')
+		{
+		?>
 		
 		<p>
 		Resolve a <a href="https://en.wikipedia.org/wiki/LSID">LSID</a> and return metadata 
@@ -241,6 +256,11 @@ else
 				<li><a href="?lsid=urn:lsid:luomus.fi:taxonconcept:5a5abdc0-2ec0-4b83-9555-b2362d6f105f:1">urn:lsid:luomus.fi:taxonconcept:5a5abdc0-2ec0-4b83-9555-b2362d6f105f:1</a></li>
 			</ul>
 		</div>
+		
+		<?php
+		}
+		?>
+		
 		
 		
 		<div class="results" id="results">
