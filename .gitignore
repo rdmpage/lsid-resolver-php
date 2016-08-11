@@ -1,5 +1,8 @@
 
 
+cache/*
+!cache/README.md
+
 vendor/Net/.svn
 vendor/Net/DNS/.svn
 vendor/Net/DNS/RR/.svn

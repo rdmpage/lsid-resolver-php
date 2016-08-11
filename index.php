@@ -194,11 +194,27 @@ else
 			<button id="go" onclick="resolve();">Go</button>
 		</div>
 		
+		<p>
+		Resolve a <a href="https://en.wikipedia.org/wiki/LSID">LSID</a> and return metadata 
+		as <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</a> as
+		<a href="https://en.wikipedia.org/wiki/JSON-LD">JSON-LD</a>, <a href="https://en.wikipedia.org/wiki/N-Triples">N-Triples</a>,
+		and <a href="https://en.wikipedia.org/wiki/RDF/XML">RDF/XML</a>.</p>
+		
+		<p> To retrieve RDF directly, use either content negotiation or append the required file extension to the LSID 
+		(e.g., <a href="./urn:lsid:nmbe.ch:spidersp:021946.jsonld">/urn:lsid:nmbe.ch:spidersp:021946.jsonld</a> returns RDF for the LSID 
+		urn:lsid:nmbe.ch:spidersp:021946 in JSON-LD format).
+		<table cellspacing="10">
+			<tr><th>Syntax</th><th>File extension</th><th>Accept header</th></tr>
+			<tr><td>JSON-LD</td><td>.jsonld</td><td>application/ld+json</td></tr>
+			<tr><td>N-triples</td><td>.nt</td><td>application/ntriples</td></tr>
+			<tr><td>RDF/XML</td><td>.rdf</td><td>application/rdf+xml</td></tr>
+		</table>
+		</p>
+		
 		<div>
 			<h2>Examples</h2>
 			<h3>Taxa and names</h3>
 			<ul>
-				<li><a href="?lsid=urn:lsid:biosci.ohio-state.edu:osuc_pubs:412">urn:lsid:biosci.ohio-state.edu:osuc_pubs:412</a></li>
 				<li><a href="?lsid=urn:lsid:nmbe.ch:spidersp:021946">urn:lsid:nmbe.ch:spidersp:021946</a></li>
 				<li><a href="?lsid=urn:lsid:algaebase.org:taxname:101541">urn:lsid:algaebase.org:taxname:101541</a></li>
 				<li><a href="?lsid=urn:lsid:marinespecies.org:taxname:138474">urn:lsid:marinespecies.org:taxname:138474</a></li>
@@ -206,7 +222,12 @@ else
 				<li><a href="?lsid=urn:lsid:Blattodea.speciesfile.org:TaxonName:6343">urn:lsid:Blattodea.speciesfile.org:TaxonName:6343</a?</li>
 				<li><a href="?lsid=urn:lsid:Orthoptera.speciesfile.org:TaxonName:61777">urn:lsid:Orthoptera.speciesfile.org:TaxonName:61777</a></li>
 				<li><a href="?lsid=urn:lsid:Coreoidea.speciesfile.org:TaxonName:459009">urn:lsid:Coreoidea.speciesfile.org:TaxonName:459009</a></li>
-				<li><a href="?lsid=urn:lsid:biosci.ohio-state.edu:osuc_concepts:249011">urn:lsid:biosci.ohio-state.edu:osuc_concepts:249011</a></li>		
+				<li><a href="?lsid=urn:lsid:biosci.ohio-state.edu:osuc_concepts:249011">urn:lsid:biosci.ohio-state.edu:osuc_concepts:249011</a></li>
+				<li><a href="?lsid=urn:lsid:organismnames.com:name:1776318">urn:lsid:organismnames.com:name:1776318</a></li>					
+			</ul>
+			<h3>Publications</h3>
+			<ul>
+				<li><a href="?lsid=urn:lsid:biosci.ohio-state.edu:osuc_pubs:412">urn:lsid:biosci.ohio-state.edu:osuc_pubs:412</a></li>
 			</ul>
 			<h3>Occurrences</h3>
 			<ul>
@@ -217,7 +238,6 @@ else
 				<li><a href="?lsid=urn:lsid:ipni.org:names:20012728-1">urn:lsid:ipni.org:names:20012728-1</a></li>
 				<li><a href="?lsid=urn:lsid:zoobank.org:act:7746E1DE-0AFD-443A-A8D5-FBD6DD369F43">urn:lsid:zoobank.org:act:7746E1DE-0AFD-443A-A8D5-FBD6DD369F43</a></li>
 				<li><a href="?lsid=urn:lsid:indexfungorum.org:names:319089">urn:lsid:indexfungorum.org:names:319089</a></li>
-				<li><a href="?lsid=urn:lsid:organismnames.com:name:1776318">urn:lsid:organismnames.com:name:1776318</a></li>
 				<li><a href="?lsid=urn:lsid:luomus.fi:taxonconcept:5a5abdc0-2ec0-4b83-9555-b2362d6f105f:1">urn:lsid:luomus.fi:taxonconcept:5a5abdc0-2ec0-4b83-9555-b2362d6f105f:1</a></li>
 			</ul>
 		</div>
