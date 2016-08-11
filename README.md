@@ -16,4 +16,10 @@ You can also get RDF directly in one of two ways:
 
 ## Installation and configuration
 
-Simply unpack the source code in a web-accessible directory. Make sure that the cache 
+Simply unpack the source code in a web-accessible directory. Make sure that the cache directory is writable by the web browser, e.g.
+
+```
+chmod 777 cache
+```
+
+Make sure that the RewriteBase directive in the .htaccess file corresponds to the base URL for the web server hosting the resolver.
