@@ -23,3 +23,24 @@ chmod 777 cache
 ```
 
 Make sure that the RewriteBase directive in the .htaccess file corresponds to the base URL for the web server hosting the resolver.
+
+## Notes on JSON-LD
+
+Want this to be as clean and JSON-like as possible. Struggling to handle IPNI and nomenclatural codes.
+
+Following JSON-LD will recreate triples with nomenclatural code as URI, other examples (e.g., “botanical” by itself) don’t work.
+
+```
+
+    “nomenclaturalCode”:  “http://rs.tdwg.org/ontology/voc/TaxonName#nomenclaturalCode”,
+    “tn”: “http://rs.tdwg.org/ontology/voc/TaxonName#”,
+    “botanical”: “tn:botanical”,
+
+“nomenclaturalCode”: { “@id” : “tn:botanical”},
+```
+
+See http://tinyurl.com/hjjqpp8
+
+
+
+
