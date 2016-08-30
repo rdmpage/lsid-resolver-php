@@ -8,10 +8,10 @@
 >
     <rdf:Description rdf:about="urn:lsid:algaebase.org:taxname:101541">
         <dc:type>ScientificName</dc:type>
-        <dc:date>2016-08-10</dc:date>
+        <dc:date>2016-08-27</dc:date>
         <dc:subject>Bangia atropurpurea (Mertens ex Roth) C.Agardh</dc:subject>
         <dc:title>Bangia atropurpurea</dc:title>
-        <dc:relation>http://www.algaebase.org/search/species/detail/?species_id=bc62e1ca7fc7a5c58</dc:relation>
+        <dc:relation>http://www.algaebase.org/search/species/detail/?species_id=e4b2907bfa06b1a0b</dc:relation>
         <dc:creator>M.D. Guiry</dc:creator>
         <dc:identifier>urn:lsid:algaebase.org:taxname:101541</dc:identifier>
         <dc:publisher>AlgaeBase</dc:publisher>

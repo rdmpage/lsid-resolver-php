@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<wsdl:definitions targetNamespace="http://osuc.biosci.ohio-state.edu/availableServices?urn:lsid:biosci.ohio-state.edu:osuc_pubs:624" xmlns:tns="http://osuc.biosci.ohio-state.edu/availableServices?urn:lsid:biosci.ohio-state.edu:osuc_pubs:624"
+<wsdl:definitions targetNamespace="http://osuc.biosci.ohio-state.edu/availableServices?urn:lsid:biosci.ohio-state.edu:osuc_concepts:241291" xmlns:tns="http://osuc.biosci.ohio-state.edu/availableServices?urn:lsid:biosci.ohio-state.edu:osuc_concepts:241291"
  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
  xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
